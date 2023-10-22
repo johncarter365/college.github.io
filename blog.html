@@ -1,0 +1,119 @@
+<html lang="en">
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!-- ----------------Header--------------------------------->
+		<section id="sub-header">
+			
+			<nav>
+				<a href="index.html"><img src="Images/logo.jpg"></a>
+				<div class="nav-links" id="navlinks">
+					<i class="fa fa-times" onclick="hideMenu()" ></i>
+					<ul>
+						<li> <a href="index.html">HOME</a></li>
+						<li> <a href="about.html">ABOUT</a></li>
+						<li> <a href="course.html">COURSE</a></li>
+						<li> <a href="blog.html">BLOG</a></li>
+						<li> <a href="contact.html">CONTACT</a></li>
+					</ul>
+					
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Our certificates & Online Programs for 2023</h1>
+		</section>
+		<!--- -------------Blog Page Content------------------------->
+		
+		<section class="blog-content">
+			<div class="row">
+				<div class="blog-left">
+					<img src="Images/8.jpg" alt>
+					<h2>Our certificates & Online Programs for 2023</h2>
+					<p>With its vast size and comprehensive academic offerings, this university has built a legacy of excellence and tradition. It's not just an educational institution; it's a source of pride for its students and alumni.</p>
+					<br>
+					<p>In the ever-evolving world of education, the world's largest university stands as a beacon of knowledge, diversity, and innovation. It's a place where students from all walks of life come to learn, explore, and shape their futures. As this website takes shape, we invite you to delve deeper into the world of this extraordinary institution, where learning knows no bounds, and the pursuit of knowledge is truly limitless.</p>
+					<br>
+					<p>This university isn't just about education within its walls; it's about the broader impact it has on the world. Alumni from this institution often occupy influential positions in various industries, extending its influence far beyond the campus borders. The university actively engages with the local community, contributing to economic development and societal betterment.</p>
+					<br>
+					<p>This university isn't just about education within its walls; it's about the broader impact it has on the world. Alumni from this institution often occupy influential positions in various industries, extending its influence far beyond the campus borders. The university actively engages with the local community, contributing to economic development and societal betterment.</p>
+					
+					<!----------------------COMMENT BOX---------------------->
+					<div class="comment-box">
+						<h3>Leave a comment</h3>
+						<form class="comment-form">
+							<input type="text" placeholder="Enter Name">
+							<input type="text" placeholder="Enter Email Address">
+							<textarea rows="5" placeholder="Your comment"></textarea>
+							<button type="submit" class="visit-btn red-btn">Post Comment</button>
+						</form>
+					</div>
+					<!---END OF COMMENT BOX--------------------------------------------->
+				</div>`
+				<div class="blog-right">
+					<h3>Post Categories</h3>
+					<div>
+						<span>Business Analytics</span>
+						<span>21</span>
+					</div>
+					<div>
+						<span>Data Science</span>
+						<span>28</span>
+					</div>
+					<div>
+						<span>Machine Learning</span>
+						<span>15</span>
+					</div>
+					<div>
+						<span>Computer Science</span>
+						<span>45</span>
+					</div>
+					<div>
+						<span>AutoCAD</span>
+						<span>42</span>
+					</div>
+					<div>
+						<span>Journalism</span>
+						<span>22</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--- -----------------FOOTER----------------- --->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>We are an institution that is focused on enriching young lives with knowlegde and helping to turn this knowledge into power.<br> Enroll with us right now and get a discount</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa fa-heart-o"></i> by Novador</p>
+		</section>
+		
+		<!--JAVASCRIPT-->
+		<script>
+			
+				/*JAVASCRIPT for Toggle menu*/
+		var navLinks = document.getElementById("navlinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200";
+			
+		}
+		</script>
+		
+	</body>
+</html>
